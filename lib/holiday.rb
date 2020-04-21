@@ -104,6 +104,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{attribute}"
     value.each do |seasons|
       binding.pry
+    end
   end
 end
 
