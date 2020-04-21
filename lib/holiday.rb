@@ -101,7 +101,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   holiday_hash.each do |attribute, value|
-    print "#{attribute}: #{value}\n"
+    print "#{value}\n"
   end
 end
 
