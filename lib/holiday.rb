@@ -103,6 +103,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |attribute, value|
     attribute.each do |holiday|
       holiday.each do |i|
+        binding.pry
   end
 end
 
