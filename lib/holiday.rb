@@ -115,7 +115,7 @@ def all_holidays_with_bbq(holiday_hash)
   new_arr = []
   holiday_hash.each do |seasons, season_hash|
     season_hash.each do |holidays, supplies|
-      supplies.each{|i| puts "#{holidays}" if i == "BBQ" }
+      supplies.each{|i| puts "#{holidays.join(", ")}" if i == "BBQ" }
     end
   end
 end
